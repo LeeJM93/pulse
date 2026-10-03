@@ -1,0 +1,33 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+/config.yaml
+/config.local.*
+/secrets/
+/credentials/
+
+# Runtime, generated output, and scratch work
+/data/
+/private_runs/
+/dist/
+/logs/
+/work/
+*.log
+
+# Python environments, build output, and tool caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+/build/
+*.egg-info/
+
+# macOS metadata
+.DS_Store
